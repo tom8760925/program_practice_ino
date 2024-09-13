@@ -10,6 +10,7 @@ void setup()
     while (WiFi.status() != WL_CONNECTED)
     { // 測試是否連接
         delay(500);
+        Serial.print(".");
     }
     Serial.println();
     Serial.print("IP:");

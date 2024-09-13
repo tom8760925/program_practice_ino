@@ -1,0 +1,8 @@
+*
+!*.ino
+!.gitignore
+!LICENSE
+!README.md
+!*/
+
+main/*.ino
